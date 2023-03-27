@@ -25,8 +25,8 @@ using SuperNova.Modules.Relay1.IRC1;
 namespace SuperNova {
     public sealed class ServerConfig : EnvConfig {
 
-        [ConfigString("server-name", "Server", "[SuperNova] Default", false, " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")]
-        public string Name = "[SuperNova] Default";
+        [ConfigString("server-name", "Server", "[DeadNova] Default", false, " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")]
+        public string Name = "[DeadNova] Default";
         [ConfigString("motd", "Server", "Welcome", false)]
         public string MOTD = "Welcome!";
         [ConfigInt("max-players", "Server", 12, 1, Server.MAX_PLAYERS)]
