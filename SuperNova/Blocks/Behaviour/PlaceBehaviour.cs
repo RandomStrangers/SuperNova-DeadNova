@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/DeadNova)
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -15,11 +15,11 @@
     or implied. See the Licenses for the specific language governing
     permissions and limitations under the Licenses.
  */
-using SuperNova.Blocks.Physics;
+using DeadNova.Blocks.Physics;
 using System;
 using BlockID = System.UInt16;
 
-namespace SuperNova.Blocks {
+namespace DeadNova.Blocks {
     
     internal static class PlaceBehaviour {
 
