@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 DeadNova
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -16,10 +16,10 @@
     permissions and limitations under the Licenses.
  */
 using System;
-using SuperNova.Blocks.Physics;
+using DeadNova.Blocks.Physics;
 using BlockID = System.UInt16;
 
-namespace SuperNova.Blocks {
+namespace DeadNova.Blocks {
 
     /// <summary> Handles the player deleting a block at the given coordinates. </summary>
     /// <remarks> Use p.ChangeBlock to do a normal player block change (adds to BlockDB, updates dirt/grass beneath) </remarks>
