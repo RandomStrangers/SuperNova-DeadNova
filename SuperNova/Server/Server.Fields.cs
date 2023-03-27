@@ -17,10 +17,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SuperNova.Network;
-using SuperNova.Tasks;
+using DeadNova.Network;
+using DeadNova.Tasks;
 
-namespace SuperNova {
+namespace DeadNova {
     public sealed partial class Server {
         public static bool cancelcommand;        
         public delegate void OnConsoleCommand(string cmd, string message);
@@ -38,15 +38,9 @@ namespace SuperNova {
         public static PlayerMetaList Notes = new PlayerMetaList("text/notes.txt");
         
         /// <summary> *** DO NOT USE THIS! *** Use VersionString, as this field is a constant and is inlined if used. </summary>
-        if string Server.Config.Name = "[DeadNova] Default" return;
-                public const string InternalVersion = "5.8.3.9";
+        public const string InternalVersion = "5.8.3.9";
         public static string Version { get { return InternalVersion; } }
         public static string SoftwareName = "DeadNova";
-        
-        else if string Server.Config.Name = "[SuperNova] Default" return;
-        public static string SoftwareName = "SuperNova"
-                public const string InternalVersion = "9.5.3.4";
-        public static string Version { get { return InternalVersion; } }
         
         
         static string fullName;
@@ -86,9 +80,9 @@ namespace SuperNova {
         public static bool voting;
         public const int MAX_PLAYERS = 256;
         
-        public static Scheduler MainScheduler = new Scheduler("SN_MainScheduler");
-        public static Scheduler Background = new Scheduler("SN_BackgroundScheduler");
-        public static Scheduler Critical = new Scheduler("SN_CriticalScheduler");
+        public static Scheduler MainScheduler = new Scheduler("DN_MainScheduler");
+        public static Scheduler Background = new Scheduler("DN_BackgroundScheduler");
+        public static Scheduler Critical = new Scheduler("DN_CriticalScheduler");
         public static Server s = new Server();
 
         public const byte VERSION_0016 = 3; // classic 0.0.16
