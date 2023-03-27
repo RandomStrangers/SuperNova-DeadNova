@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/DeadNova)
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -18,13 +18,13 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using SuperNova.Blocks.Extended;
-using SuperNova.Blocks.Physics;
-using SuperNova.Network;
-using SuperNova.SQL;
+using DeadNova.Blocks.Extended;
+using DeadNova.Blocks.Physics;
+using DeadNova.Network;
+using DeadNova.SQL;
 using BlockID = System.UInt16;
 
-namespace SuperNova.Blocks {
+namespace DeadNova.Blocks {
     internal static class WalkthroughBehaviour {
 
         internal static bool Door(Player p, BlockID block, ushort x, ushort y, ushort z) {
