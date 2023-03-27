@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/DeadNova)
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -16,12 +16,12 @@
     permissions and limitations under the Licenses.
  */
 using System;
-using SuperNova.Blocks.Extended;
-using SuperNova.Blocks.Physics;
-using SuperNova.Maths;
+using DeadNova.Blocks.Extended;
+using DeadNova.Blocks.Physics;
+using DeadNova.Maths;
 using BlockID = System.UInt16;
 
-namespace SuperNova.Blocks {
+namespace DeadNova.Blocks {
     
     internal static class DeleteBehaviour {
 
