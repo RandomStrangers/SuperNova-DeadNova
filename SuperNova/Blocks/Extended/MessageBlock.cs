@@ -18,10 +18,10 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using SuperNova.Maths;
-using SuperNova.SQL;
+using DeadNova.Maths;
+using DeadNova.SQL;
 
-namespace SuperNova.Blocks.Extended {
+namespace DeadNova.Blocks.Extended {
     public static class MessageBlock {
         
         public static bool Handle(Player p, ushort x, ushort y, ushort z, bool alwaysRepeat) {
