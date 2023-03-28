@@ -27,9 +27,9 @@ namespace DeadNova {
     /// <summary> Checks for and applies software updates. </summary>
     public static class Updater {
         
-        public static string SourceURL = "https://github.com/RandomStrangers/SuperNova-DeadNova/";
-        public const string BaseURL    = "https://github.com/RandomStrangers/SuperNova-DeadNova/blob/DeadNova/";
-        public const string UploadsURL = "https://github.com/RandomStrangers/SuperNova-DeadNova/tree/DeadNova/Uploads";
+        public static string SourceURL = "https://github.com/RandomStrangers/DeadNova/";
+        public const string BaseURL    = "https://github.com/RandomStrangers/DeadNova/blob/DeadNova/";
+        public const string UploadsURL = "https://github.com/RandomStrangers/DeadNova/tree/DeadNova/Uploads";
         
         const string CurrentVersionURL = BaseURL + "Uploads/current_version.txt";
         #if TEN_BIT_BLOCKS
