@@ -18,10 +18,10 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using DeadNova.Maths;
-using DeadNova.SQL;
+using SuperNova.Maths;
+using SuperNova.SQL;
 
-namespace DeadNova.Blocks.Extended {
+namespace SuperNova.Blocks.Extended {
     public class PortalExit { public string Map; public ushort X, Y, Z; }
     
     public static class Portal {
