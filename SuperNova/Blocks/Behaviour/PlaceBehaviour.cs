@@ -19,7 +19,7 @@ using DeadNova.Blocks.Physics;
 using System;
 using BlockID = System.UInt16;
 
-namespace DeadNova.Blocks {
+namespace SuperNova.Blocks {
     
     internal static class PlaceBehaviour {
 
