@@ -20,10 +20,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Reflection;
-using DeadNova.Network;
-using DeadNova.Tasks;
+using SuperNova.Network;
+using SuperNova.Tasks;
 
-namespace DeadNova {
+namespace SuperNova {
     /// <summary> Checks for and applies software updates. </summary>
     public static class Updater {
         
