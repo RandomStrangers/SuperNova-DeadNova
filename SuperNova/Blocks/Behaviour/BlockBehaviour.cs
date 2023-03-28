@@ -16,10 +16,10 @@
     permissions and limitations under the Licenses.
  */
 using System;
-using DeadNova.Blocks.Physics;
+using SuperNova.Blocks.Physics;
 using BlockID = System.UInt16;
 
-namespace DeadNova.Blocks {
+namespace SuperNova.Blocks {
 
     /// <summary> Handles the player deleting a block at the given coordinates. </summary>
     /// <remarks> Use p.ChangeBlock to do a normal player block change (adds to BlockDB, updates dirt/grass beneath) </remarks>
