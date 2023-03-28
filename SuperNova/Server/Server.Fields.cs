@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/DeadNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
     
     Dual-licensed under the    Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -17,10 +17,10 @@
  */
 using System;
 using System.Collections.Generic;
-using DeadNova.Network;
-using DeadNova.Tasks;
+using SuperNova.Network;
+using SuperNova.Tasks;
 
-namespace DeadNova {
+namespace SuperNova {
     public sealed partial class Server {
         public static bool cancelcommand;        
         public delegate void OnConsoleCommand(string cmd, string message);
