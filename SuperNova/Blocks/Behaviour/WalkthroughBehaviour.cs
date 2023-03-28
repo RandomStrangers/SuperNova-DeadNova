@@ -18,13 +18,13 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using DeadNova.Blocks.Extended;
-using DeadNova.Blocks.Physics;
-using DeadNova.Network;
-using DeadNova.SQL;
+using SuperNova.Blocks.Extended;
+using SuperNova.Blocks.Physics;
+using SuperNova.Network;
+using SuperNova.SQL;
 using BlockID = System.UInt16;
 
-namespace DeadNova.Blocks {
+namespace SuperNova.Blocks {
     internal static class WalkthroughBehaviour {
 
         internal static bool Door(Player p, BlockID block, ushort x, ushort y, ushort z) {
