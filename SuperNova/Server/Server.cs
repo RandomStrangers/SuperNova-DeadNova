@@ -1,5 +1,5 @@
 /*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/DeadNova)
     
     Dual-licensed under the    Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -23,20 +23,20 @@ using System.Net;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Threading;
-using SuperNova.Authentication;
-using SuperNova.Commands;
-using SuperNova.DB;
-using SuperNova.Drawing;
-using SuperNova.Eco;
-using SuperNova.Events.ServerEvents;
-using SuperNova.Games;
-using SuperNova.Network;
-using SuperNova.Scripting;
-using SuperNova.Tasks;
-using SuperNova.Util;
-using SuperNova.Modules.Awards;
+using DeadNova.Authentication;
+using DeadNova.Commands;
+using DeadNova.DB;
+using DeadNova.Drawing;
+using DeadNova.Eco;
+using DeadNova.Events.ServerEvents;
+using DeadNova.Games;
+using DeadNova.Network;
+using DeadNova.Scripting;
+using DeadNova.Tasks;
+using DeadNova.Util;
+using DeadNova.Modules.Awards;
 
-namespace SuperNova {
+namespace DeadNova {
     public sealed partial class Server {
         
         public Server() { Server.s = this; }
