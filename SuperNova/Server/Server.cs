@@ -23,20 +23,20 @@ using System.Net;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Threading;
-using DeadNova.Authentication;
-using DeadNova.Commands;
-using DeadNova.DB;
-using DeadNova.Drawing;
-using DeadNova.Eco;
-using DeadNova.Events.ServerEvents;
-using DeadNova.Games;
-using DeadNova.Network;
-using DeadNova.Scripting;
-using DeadNova.Tasks;
-using DeadNova.Util;
-using DeadNova.Modules.Awards;
+using SuperNova.Authentication;
+using SuperNova.Commands;
+using SuperNova.DB;
+using SuperNova.Drawing;
+using SuperNova.Eco;
+using SuperNova.Events.ServerEvents;
+using SuperNova.Games;
+using SuperNova.Network;
+using SuperNova.Scripting;
+using SuperNova.Tasks;
+using SuperNova.Util;
+using SuperNova.Modules.Awards;
 
-namespace DeadNova {
+namespace SuperNova {
     public sealed partial class Server {
         
         public Server() { Server.s = this; }
