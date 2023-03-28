@@ -16,12 +16,12 @@
     permissions and limitations under the Licenses.
  */
 using System;
-using DeadNova.Blocks.Extended;
-using DeadNova.Blocks.Physics;
-using DeadNova.Maths;
+using SuperNova.Blocks.Extended;
+using SuperNova.Blocks.Physics;
+using SuperNova.Maths;
 using BlockID = System.UInt16;
 
-namespace DeadNova.Blocks {
+namespace SuperNova.Blocks {
     
     internal static class DeleteBehaviour {
 
